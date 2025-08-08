@@ -6,8 +6,8 @@ import random
 import json
 import logging
 
-option_a = os.getenv('OPTION_A', "docker")
-option_b = os.getenv('OPTION_B', "kuber")
+option_a = os.getenv('OPTION_A', "dockerswarm")
+option_b = os.getenv('OPTION_B', "kubernetes")
 hostname = socket.gethostname()
 
 app = Flask(__name__)
